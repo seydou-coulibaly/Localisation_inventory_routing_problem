@@ -1,0 +1,132 @@
+Tried aggregator 1 time.
+MIP Presolve eliminated 246 rows and 27 columns.
+MIP Presolve modified 72 coefficients.
+Reduced MIP has 207 rows, 175 columns, and 659 nonzeros.
+Reduced MIP has 69 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.63 ticks)
+Found incumbent of value 1554.050729 after 0.00 sec. (1.09 ticks)
+Probing fixed 0 vars, tightened 30 bounds.
+Probing changed sense of 5 constraints.
+Probing time = 0.00 sec. (0.25 ticks)
+Cover probing fixed 0 vars, tightened 6 bounds.
+Tried aggregator 2 times.
+MIP Presolve modified 15 coefficients.
+Aggregator did 5 substitutions.
+Reduced MIP has 202 rows, 170 columns, and 654 nonzeros.
+Reduced MIP has 64 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.57 ticks)
+Probing fixed 0 vars, tightened 28 bounds.
+Probing time = 0.00 sec. (0.18 ticks)
+Clique table members: 67.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (0.62 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         1554.0507      160.0000       46   89.70%
+*     0+    0                          260.0000      160.0000       46   38.46%
+      0     0      185.0000     6      260.0000      185.0000       46   28.85%
+      0     0      185.2500     7      260.0000      Cuts: 12       48   28.75%
+      0     0      194.6817    18      260.0000      Cuts: 15       90   25.12%
+      0     0        cutoff            260.0000      260.0000      238    0.00%
+Elapsed time = 0.02 sec. (8.98 ticks, tree = 0.00 MB, solutions = 1)
+
+Implied bound cuts applied:  1
+Mixed integer rounding cuts applied:  1
+Multi commodity flow cuts applied:  4
+Gomory fractional cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (8.98 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (8.98 ticks)
+Optimal
+260.0
+
+
+======== RESULTS  =================
+
+Status of solver :   Optimal
+Objective function :   260.0
+----DEPOTS ----------------------  
+Open depots: 	0 	  1 	  Depots not selected: 	2 	  
+------ QUANTITY DELIVERED TO DEPOTS ---------
+Period 0:   36.0	14.0	0.0	
+Period 1:   0.0	0.0	0.0	
+Period 2:   0.0	0.0	0.0	
+------ QUANTITY DELIVERED FROM DEPOTS to CLIENTS ---------
+Period 0:   
+Depot 0: 	  0.0	7.0	0.0	13.0	16.0	
+Depot 1: 	  4.0	0.0	10.0	0.0	0.0	
+Depot 2: 	  0.0	0.0	0.0	0.0	0.0	
+
+Period 1:   
+Depot 0: 	  0.0	0.0	0.0	0.0	0.0	
+Depot 1: 	  0.0	0.0	0.0	0.0	0.0	
+Depot 2: 	  0.0	0.0	0.0	0.0	0.0	
+
+Period 2:   
+Depot 0: 	  0.0	0.0	0.0	0.0	0.0	
+Depot 1: 	  0.0	0.0	0.0	0.0	0.0	
+Depot 2: 	  0.0	0.0	0.0	0.0	0.0	
+
+------ INVENTORY AT DEPOTS ---------
+Initial inventory :   0.0	0.0	0.0	
+Period 0:   0.0	0.0	0.0	
+Period 1:   0.0	0.0	0.0	
+Period 2:   0.0	0.0	0.0	
+------ INVENTORY AT CLIENTS ---------
+Initial inventory :2.0	2.0	2.0	2.0	2.0	
+Period 0:   4.0	6.0	8.0	10.0	12.0	
+Period 1:   2.0	3.0	4.0	5.0	6.0	
+Period 2:   0.0	0.0	0.0	0.0	0.0	
+------ LIST OF ROUTES ---------
+Period 0:   0 	  1 	  
+Period 1:   
+Period 2:   
+------ DETAILED ROUTES ---------
+Period 0:   
+ route 0 visiting depots : 	0 	 
+ route 1 visiting depots : 	1 	 
+Period 1:   
+Period 2:   
+----  DETAILED DELIVERIES AT CLIENTS -------------------------
+ Client 0: 	
+Period 0:  depot 1/ quantity = 4.0	
+Period 1: 
+Period 2: 
+
+ Client 1: 	
+Period 0:  depot 0/ quantity = 7.0	
+Period 1: 
+Period 2: 
+
+ Client 2: 	
+Period 0:  depot 1/ quantity = 10.0	
+Period 1: 
+Period 2: 
+
+ Client 3: 	
+Period 0:  depot 0/ quantity = 13.0	
+Period 1: 
+Period 2: 
+
+ Client 4: 	
+Period 0:  depot 0/ quantity = 16.0	
+Period 1: 
+Period 2: 
+
+----------- RECALCULATION OF THE OBJECTIVE FUNCTION  ----- 
+Fixed cost of opening depots: 200.0
+Cost of routes: 12.0
+Cost of delivering clients: 17.20433210594166
+Inventory cost at depots: 0.0
+Inventory cost at clients: 60.0
+Objective function recalculated: 289.20433210594166

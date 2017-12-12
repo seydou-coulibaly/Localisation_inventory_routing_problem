@@ -1,0 +1,21 @@
+
+Il est necessaire d'avoir les bons paths(chemin) d'exécution afin de compiler et d'exécuter avec succès le modèle
+Un makefile est disponible dans src et conforme avec une presentation de makefile de IBM pour l'utilisation de CPLEX.
+La variable CPLEXDIR est à changer.
+
+
+Pour compiler le projet
+  makefile disponible dans le dossier src
+Pour executer une instance
+  Les instances sont décrits dans le dossier instances dans lequel un fichier Readme détaille les composants d'une instance.
+  pour lancer un run, il faut taper
+
+  ./executable lirp5-5-5a PARAMETRE
+
+  dont PARAMETRE vaut
+                      short
+                      long
+                      random
+                      paquet
+
+  et lirp5-5-5a le nom de l'instance

@@ -1,0 +1,30 @@
+3		%nbDepots	
+5		%nbClients																										
+3		%nbperiods
+5		%max number of vehicles																										
+20	% vehicle Capacity																									
+20		% Capacity at depots
+5		% Capacity at clients
+100 100 100 	%fixedCost																								
+10 10 10	%orderingCost 
+0 0 0		%initialInventory at depot
+2 2 2 2 2   	% Initial inventory at client
+1  		%holding cost	 //1 line for each depot
+1 
+1 	
+1		% holding cost at client   (the same everywhere)																							
+2 2 2		%demandofClients 
+3 3 3
+4 4 4
+5 5 5
+6 6 6 	 			
+2 7             %coordinatesofClients&Depots&Plant
+2 6
+2 4
+3 2
+4 2
+2 5
+5 2
+8 5
+5 5
+9999 			% controlling the code

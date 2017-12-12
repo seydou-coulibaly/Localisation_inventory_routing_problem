@@ -1,0 +1,147 @@
+------------------------  OPEN DEPOTS  ------------------------
+
+
+DEPOT 2
+	INIT TIME 	 STOCK 0.0
+
+	Periode 0	 STOCK 0.0	QD 20.0
+
+	Periode 1	 STOCK 0.0	QD 19.0
+
+	Periode 2	 STOCK 0.0	QD 21.0
+
+	Periode 3	 STOCK 0.0	QD 21.0
+
+	Periode 4	 STOCK 0.0	QD 21.0
+
+
+DEPOT 3
+	INIT TIME 	 STOCK 0.0
+
+	Periode 0	 STOCK 0.0	QD 20.0
+
+	Periode 1	 STOCK 5.0	QD 21.0
+
+	Periode 2	 STOCK 8.0	QD 21.0
+
+	Periode 3	 STOCK 0.0	QD 21.0
+
+	Periode 4	 STOCK 0.0	
+
+
+DEPOT 4
+	INIT TIME 	 STOCK 0.0
+
+	Periode 0	 STOCK 0.0	QD 20.0
+
+	Periode 1	 STOCK 0.0	
+
+	Periode 2	 STOCK 0.0	QD 21.0
+
+	Periode 3	 STOCK 0.0	
+
+	Periode 4	 STOCK 0.0	
+
+------------------------    CLIENTS  ------------------------
+
+CLIENT 0	INIT TIME 	 STOCK 2.0
+
+
+		Periode 0	 STOCK 4.0	QD 13.0 BY ROUTE 14	Via DEPOT 2
+
+
+		Periode 1	 STOCK 1.0
+
+
+		Periode 2	 STOCK 3.0	QD 18.0 BY ROUTE 82	Via DEPOT 3
+
+
+		Periode 3	 STOCK 12.0	QD 16.0 BY ROUTE 82	Via DEPOT 3
+
+
+		Periode 4	 STOCK 0.0
+
+CLIENT 1	INIT TIME 	 STOCK 2.0
+
+
+		Periode 0	 STOCK 12.0	QD 20.0 BY ROUTE 44	Via DEPOT 4
+
+
+		Periode 1	 STOCK 0.0
+
+
+		Periode 2	 STOCK 6.0	QD 12.0 BY ROUTE 42	Via DEPOT 4
+
+
+		Periode 3	 STOCK 7.0	QD 12.0 BY ROUTE 31	Via DEPOT 2
+
+
+		Periode 4	 STOCK 0.0
+
+CLIENT 2	INIT TIME 	 STOCK 2.0
+
+
+		Periode 0	 STOCK 4.0	QD 10.0 BY ROUTE 75	Via DEPOT 3
+
+
+		Periode 1	 STOCK 0.0
+
+
+		Periode 2	 STOCK 3.0	QD 13.0 BY ROUTE 0	Via DEPOT 2
+
+
+		Periode 3	 STOCK 3.0
+
+
+		Periode 4	 STOCK 0.0
+
+CLIENT 3	INIT TIME 	 STOCK 2.0
+
+
+		Periode 0	 STOCK 0.0	QD 10.0 BY ROUTE 75	Via DEPOT 3
+
+
+		Periode 1	 STOCK 5.0	QD 16.0 BY ROUTE 4	Via DEPOT 3
+
+
+		Periode 2	 STOCK 2.0	QD 8.0 BY ROUTE 0	Via DEPOT 2
+
+
+		Periode 3	 STOCK 0.0	QD 9.0 BY ROUTE 31	Via DEPOT 2
+
+
+		Periode 4	 STOCK 0.0	QD 12.0 BY ROUTE 68	Via DEPOT 2
+
+CLIENT 4	INIT TIME 	 STOCK 2.0
+
+
+		Periode 0	 STOCK 0.0	QD 7.0 BY ROUTE 14	Via DEPOT 2
+
+
+		Periode 1	 STOCK 2.0	QD 19.0 BY ROUTE 45	Via DEPOT 2
+
+
+		Periode 2	 STOCK 0.0	QD 9.0 BY ROUTE 42	Via DEPOT 4
+
+
+		Periode 3	 STOCK 2.0	QD 13.0 BY ROUTE 37	Via DEPOT 3
+
+
+		Periode 4	 STOCK 0.0	QD 9.0 BY ROUTE 68	Via DEPOT 2
+
+------------------------    LIST OF ROUTES  ------------------------
+	Periode 0 ROUTE 14 visiting clients :	0	4				(cost 1400.49)
+	Periode 0 ROUTE 44 visiting clients :	1				(cost 2479.13)
+	Periode 0 ROUTE 75 visiting clients :	2	3				(cost 2046.00)
+	Periode 1 ROUTE 4 visiting clients :	3				(cost 2011.57)
+	Periode 1 ROUTE 45 visiting clients :	4				(cost 602.99)
+	Periode 2 ROUTE 0 visiting clients :	2	3				(cost 2314.87)
+	Periode 2 ROUTE 42 visiting clients :	1	4				(cost 2951.69)
+	Periode 2 ROUTE 82 visiting clients :	0				(cost 657.95)
+	Periode 3 ROUTE 31 visiting clients :	1	3				(cost 3899.33)
+	Periode 3 ROUTE 37 visiting clients :	4				(cost 657.95)
+	Periode 3 ROUTE 82 visiting clients :	0				(cost 657.95)
+	Periode 4 ROUTE 68 visiting clients :	3	4				(cost 2367.37)
+
+------------------------    OBJECTIVE Function  ------------------------
+COUT = 40177.29

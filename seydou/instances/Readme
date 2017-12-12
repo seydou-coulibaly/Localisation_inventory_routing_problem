@@ -1,0 +1,70 @@
+% Number of retailers
+5
+% Number of candidate depots
+3
+% Number of periods
+3
+% Max number of vehicles available (always equal to N)
+5
+% vehicle Capacity
+20
+% cost for using a vehicle
+350
+% cost per km
+50
+% CMAX
+5
+% RMAX
+50
+% DMAX
+100
+% LMAX
+7000
+% Opening cost per candidate depot
+100 100 100
+% Ordering cost at depots
+10 10 10
+% Initial inventory for retailers
+2 2 2
+% initial inventory at depot
+0 0 0
+% Max inventory at retailers
+20 12 7 5 2
+% Max inventory at depot
+10 5 6
+% demand vector for retailer 1 for every period
+2 2 2
+% demand vector for retailer 2 for every period
+3 3 3
+% demand vector for retailer 3 for every period
+4 4 4
+% demand vector for retailer 4 for every period
+5 5 5
+% demand vector for retailer 5 for every period
+6 6 6
+% holding cost for retailer 1
+1 1 1
+% holding cost for retailer 2
+1 1 1
+% holding cost for retailer 3
+1 1 1
+% holding cost for retailer 4
+1 1 1
+% holding cost for retailer 5
+1 1 1
+% holding cost of depot 1
+20 20 20
+% holding cost of depot 2
+20 20 20
+% holding cost of depot 3
+20 20 20
+%coordinates of retailers & candidate depots & Plant
+22 7
+2 6
+2 4
+3 2
+4 2
+2 5
+5 2
+8 5
+5 5
